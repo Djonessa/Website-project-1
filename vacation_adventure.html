@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>html2project</title>
+	
+	<style>	#myHeader {
+  			background-color: lightblue;
+  			color: orangered;
+  			padding: 40px;
+  			text-align: center;
+			font-family: "Constantia", "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+		}
+		
+		.h2 {background-color: lightcyan;
+  color: rebeccapurple;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+		
+		body{background-color:mistyrose}
+		
+		a {color: firebrick}
+		img {display: block;
+  			margin-left: auto;
+ 			 margin-right: auto;}
+		p{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; color:palevioletred}
+		h2 {font font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; color: rebeccapurple; text-align: center}
+		li::marker {color: red;}
+		table, th, td { border: 1px solid black;border-collapse: collapse;background-color: paleturquoise}
+		
+  </style>
+</head>
+
+<body>
+	
+	<h1 id="myHeader">Vacation Adventure</h1>
+	<img src="images/pyramids.jpg" alt="pyramids"/>
+	<p> Vacations are a great way to unwind, connect with new people, and experience the world differently.
+		If you are not sure where to travel or what to do, here is some <a href="https://www.earthtrekkers.com/destinations/">Vacation Inspiration</a>. If relaxation and soaking up some sun is more your vibe I've got you covered. You can visit some of these <a href="index.html">Beautiful Beaches</a>. Below I have included a table of some nice destinations and their breathtaking attractions.
+	</p>
+	
+		<table>
+			
+  <tr>
+    <th>Destination</th>
+    <th>Attraction</th>
+  </tr>
+  <tr>
+    <td>Egypt</td>
+    <td>Giza Pyramids</td>
+  </tr>
+  <tr>
+    <td>Germany</td>
+    <td>Neuschwanstein Castle</td>
+  </tr>
+	<tr>
+		<td>Peru</td>
+		<td> Machu Picchu</td></tr>
+	</table>
+	
+	<img src="images/apassport.jpg" alt="passport and map" style="width:50%;"> 
+	
+	<div class="h2"> 
+		<h2> Preparation</h2> 
+	</div>
+		
+	<p> Before you can go anywhere you need to gather some information about what is required 
+		for you to travel to your chosen destination. If you are travelling outside of the 
+	country you may need a passport, visa, and vaccines. I have included a handy list of things you may need. </p>
+
+	<ul>
+	 	
+		<li> Passport</li>
+		<li>Visa</li>
+		<li>Local currency</li>
+		<li>updated vaccines</li>
+		<li>Driver's License</li>
+		<li id="contactInfo"></li>
+	</ul>
+		<h3> Enter For a Chance to Win Your Dream Vacation!</h3>
+ <form>
+      <input type="text" name="first" placeholder="Enter your first name">
+      <input type="text" name="last" placeholder="Enter your last name">
+    
+     <input type= "submit"> <input>
+      </form>
+	<script>document.getElementById"contactInfo".innerHTML ="Emergency contact";
+	</script>
+
+	</body> 
+	</html>
+
