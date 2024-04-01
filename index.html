@@ -2,93 +2,59 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>html2project</title>
+<title>html1project</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+	body{background-color: lightblue;}
 	
-	<style>	#myHeader {
-  			background-color: lightblue;
-  			color: orangered;
-  			padding: 40px;
-  			text-align: center;
-			font-family: "Constantia", "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
-		}
-		
-		.h2 {background-color: lightcyan;
-  color: rebeccapurple;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
+	form{
+		background-color:orange;
+		width:300px;
+		padding:10px;
+	}
+	
+body {
+	
+  font-family: "Sofia", sans-serif;
 }
-		
-		body{background-color:mistyrose}
-		
-		a {color: firebrick}
-		img {display: block;
-  			margin-left: auto;
- 			 margin-right: auto;}
-		p{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; color:palevioletred}
-		h2 {font font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; color: rebeccapurple; text-align: center}
-		li::marker {color: red;}
-		table, th, td { border: 1px solid black;border-collapse: collapse;background-color: paleturquoise}
-		
-  </style>
+</style>
 </head>
 
 <body>
-	
-	<h1 id="myHeader">Vacation Adventure</h1>
-	<img src="images/pyramids.jpg" alt="pyramids"/>
-	<p> Vacations are a great way to unwind, connect with new people, and experience the world differently.
-		If you are not sure where to travel or what to do, here is some <a href="https://www.earthtrekkers.com/destinations/">Vacation Inspiration</a>. If relaxation and soaking up some sun is more your vibe I've got you covered. You can visit some of these <a href="index.html">Beautiful Beaches</a>. Below I have included a table of some nice destinations and their breathtaking attractions.
-	</p>
-	
-		<table>
-			
-  <tr>
-    <th>Destination</th>
-    <th>Attraction</th>
-  </tr>
-  <tr>
-    <td>Egypt</td>
-    <td>Giza Pyramids</td>
-  </tr>
-  <tr>
-    <td>Germany</td>
-    <td>Neuschwanstein Castle</td>
-  </tr>
-	<tr>
-		<td>Peru</td>
-		<td> Machu Picchu</td></tr>
-	</table>
-	
-	<img src="images/apassport.jpg" alt="passport and map" style="width:50%;"> 
-	
-	<div class="h2"> 
-		<h2> Preparation</h2> 
-	</div>
-		
-	<p> Before you can go anywhere you need to gather some information about what is required 
-		for you to travel to your chosen destination. If you are travelling outside of the 
-	country you may need a passport, visa, and vaccines. I have included a handy list of things you may need. </p>
+<h1>Beautiful Beaches</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-	<ul>
-	 	
-		<li> Passport</li>
-		<li>Visa</li>
-		<li>Local currency</li>
-		<li>updated vaccines</li>
-		<li>Driver's License</li>
-		<li id="contactInfo"></li>
-	</ul>
-		<h3> Enter For a Chance to Win Your Dream Vacation!</h3>
- <form>
-      <input type="text" name="first" placeholder="Enter your first name">
-      <input type="text" name="last" placeholder="Enter your last name">
-    
-     <input type= "submit"> <input>
-      </form>
-	<script>document.getElementById"contactInfo".innerHTML ="Emergency contact";
-	</script>
-
-	</body> 
-	</html>
-
+<img src="images/seychelles_edited.jpg" width="1000" height="800" alt="beach in seychelles with clear blue water"/>
+<h2> Anse Source d’Argent</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/og0FPe8LHXQ?si=Ce-tErFJ18T6IYIH&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <p> Seychelles beaches are known for their white sands and  clear blue water. <i>Anse Source d’Argent</i> is the <em>world's most photgraphed beach</em>. </p>
+	
+	
+<img src="images/maldives.jpg" alt="beach houses in maldives"/>
+	<h3>Maldives</h3>
+	<p>Maldives is one of the <b>top</b> destinations. Its beach resorts with bungalows right on the water makes it an instagram worthy vacation destination.</p>
+	<img src="images/bora-bora.jpg" alt="beach houses in bora bora"/>
+	<h4>Bora Bora</h4>
+	<p> Bora Bora is known for their beautiful reefs and Matira Beach.</p>
+	<h2> Enter for a chance to win!</h2>
+	<form 
+     
+	
+Choose your favorite Destination: <br>
+<form> 
+	<input type="text" name="name" placeholder="Enter your name"> <br>
+   <input type="radio" id="Seychelles" name="fav_dest" value="Seychelles">
+	<label for="Seychelles">Seychelles</label><br>
+<input type="radio" id="" name="fav_dest" value="Maldives">
+	<label for="Maldives">Maldives</label><br>
+	<input	type="radio" id="Bora-bora" name="fav_dest" value="Bora-bora">
+		<label for="Bora-bora">Bora-bora</label><br>
+  
+</form>
+      
+      <button type="submit">submit</button>
+  </form>
+</body>
+</html>
