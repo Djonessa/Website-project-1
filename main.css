@@ -3,11 +3,13 @@
 	disp: flex;
 	width: 1200px;
 	margin: 0 auto;
+	padding: 16px;
 	max-width: 95%;
 	height: 100%;
-	
+	background-color: antiquewhite;
 	
 }
+
 header{
 	display:flex;
 	text:25px;
@@ -23,40 +25,53 @@ nav {display: flex;
 	text-align: center;
 	letter-spacing: 0.9rem;
 }
-.flex-container{flex: 1 1 0;
-				}
+#title {flex: 1 1 0;
+  position: relative;
+  text-align: left;
+  color: gold;
+}
 
-.box1{
-	flex-grow:2;
-	height: 200px;
-	text-align: center;
-	background-color:palegoldenrod;
-	font-size: 30px;
+				
+
+.elevate{ flex-grow: 1;
+  position: absolute;
+  top: 20px;
+  left: 16px;
+	
 	
 	
 }
-.box2{
-	flex-grow: 1;
-	height: 40px;
-	background-color: royalblue;
-	color: gold;
-	text-align: center;
+.subheading{flex-grow: 1;
+		position:absolute;
+		top:80px;
+		left: 18px;
+		color:white;
+		white-space: pre-wrap;}
+.consult{
+	flex-grow: 2;
+	position:absolute;
+	bottom: 100px;
+	left: 20px;
+	
 }
+
+.button{background-color: blue;
+	border-radius: 40px;
+	border: 2px;
+ color: white;
+  padding: 20px;
+	white-space: nowrap;
+  text-align:center;
+font-family: cinzel;
+cursor: pointer;
+}
+
 
 #accordion{width:73%;
 			margin:auto;
 			}
 
-.container2 
-		{display:flex;
-			flex-direction:column;
-			-moz-columns: ;
-			-o-columns: ;
-			columns: ;
-		     align-content: space-around;
-			
-			 margin: 6px;
-			border:1px solid;}
+
 
 
 
@@ -68,3 +83,79 @@ nav {display: flex;
 .item2{flex-grow: 1;
 	
 	}
+#Header{padding:2px;
+	disp: flex;
+	width:450px;
+	
+
+	max-width: 90%;
+	height: 10%;
+	position: absolute;
+	right:16px;
+	
+	
+
+}
+.call{display:flex;
+	justify-content:center;
+	text:25px;
+	width: 87%;
+	height: 100 px;
+	background-color: navy;
+	color: gold;
+	text-align:right;
+	}
+#cont2 
+		{display:flex;
+			flex-direction:column;
+			disp: flex;
+	width: 1230px;
+	margin:auto;
+	padding: 2px;
+	max-width: 95%;
+	height: 100%;
+	
+			
+			}
+
+.finishes {
+			color:gold;
+			background-color:darkgray;
+			text-align:center;
+			
+	}
+.plaster{
+	flex-grow: 2;
+	position:absolute;
+	left: 80px;
+	font-family: cinzel; 
+	background-color:darkgray;
+	color:white;
+	}
+.portfolio{font-family: cinzel;}
+
+#cont3{ 
+  display: flex;
+  flex: 33.33%;
+	padding: 18px;}
+
+.why {text-align:center;
+		font-family: Cinzel;
+	}
+
+#cont4{ background-color: peachpuff;
+	font-family: cinzel;
+	position: relative;
+	
+	
+}
+.consult2{
+	align-content: center;
+	flex-grow: 2;
+  margin-right: 10px;
+  position:absolute;
+  bottom: 0%;
+  left: 50%;
+  
+	
+}
