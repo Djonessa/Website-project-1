@@ -83,15 +83,15 @@ cursor: pointer;
 .item2{flex-grow: 1;
 	
 	}
-#Header{padding:2px;
-	disp: flex;
-	width:450px;
-	
-
-	max-width: 90%;
-	height: 10%;
-	position: absolute;
-	right:16px;
+#Header{
+    padding: 2px;
+    disp: flex;
+    width: 417px;
+    max-width: 90%;
+    height: 10%;
+    position: absolute;
+    right: 90px;
+    top: 6px;
 	
 	
 
@@ -114,6 +114,7 @@ cursor: pointer;
 	padding: 2px;
 	max-width: 95%;
 	height: 100%;
+			font-family: cinzel;
 	
 			
 			}
@@ -135,6 +136,7 @@ cursor: pointer;
 .portfolio{font-family: cinzel;}
 
 #cont3{ 
+	margin-left:200px;
   display: flex;
   flex: 33.33%;
 	padding: 18px;}
@@ -149,13 +151,140 @@ cursor: pointer;
 	
 	
 }
-.consult2{
-	align-content: center;
-	
+
+#cont5{flex-direction:column;
+	background-color:whitesmoke;
+  text-align: center;
+	display:flex;
+	width: 1230px;
+	margin:auto;
+	padding: 2px;
+	max-width: 95%;
+	height: 100%;
+			font-family: cinzel;
   
-  position:absolute;
-  bottom: 0%;
-  left: 50%;
-  
+}  
+
+#discover {background-color:cornflowerblue;
+			display:flex;
+			flex-direction:column;
+			disp: flex;
+	width: 1230px;
+	margin:auto;
+	padding: 2px;
+	max-width: 95%;
+	height: 100%;
+	color: white;
+			font-family: cinzel;}
+
+#portfolio{text-align: center;
+		background-color:lightslategray;
+	flex-direction:row;
+	display: flex;
 	
+	
+	}
+.gallery{ 
+	align-content: space-between;
+		flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+		align-items: center;
+		
+	margin-right: 55px;
+	
+	
+	}
+
+#contact{
+	text-align:center;
+	background-color: navy;
+
+width: 1230px;
+	margin:auto;
+	
+	max-width: 95%;
+	height: 100%;}
+
+.form{color:white;}
+
+#about{text-align: center;
+background-color: lightsteelblue;}
+
+.story{color:#0C1AF6;
+font-family: cinzel;
+ border-style: solid;
+	border-color:lightgray;
+	border-width: thin;
+	background-color: white;
+	text-align: left;
+	
+
+width: 1230px;
+	margin:auto;
+	
+	max-width: 95%;
+	height: 100%;}
+
+.button-about{
+	background-color: blue;
+	text-align: center;
+	
+	border-radius: 20px;
+	border: 2px;
+ color: gold;
+  padding: 10px;
+	white-space: nowrap;
+font-family: cinzel;
+cursor: pointer;
+	
+	}
+
+#button-ab{display: block;
+  width: 150px;
+  margin: 0 auto
 }
+
+.faqs{text-align: center;
+
+}
+
+#faq{background-color:#FAD9C3;
+	color:#0C1AF6;
+	font-family: cinzel;
+	display:flex;
+	flex-direction: row;
+	
+	}
+.plaster-faq{color:#D8B01C;
+text-align:left;
+margin:20px;
+flex-grow: 1}
+
+.plaster-question{flex-direction: column;
+color:#0C1AF6;}
+
+.plaster-answer{color:black;
+text-align:left;}
+
+.wallpaper-faq{color:#D8B01C;
+text-align:center;
+margin:20px;
+flex-grow: 1;}
+
+.wallpaper-question{flex-direction: column;
+color:#0C1AF6;}
+
+.general-faq{color:#D8B01C;
+flex-direction: column;
+text-align: center;
+margin:20px;
+flex-grow: 1;}
+
+.wallpaper-answer{color:black;
+text align:middle;}
+
+.general-question{color:#0C1AF6;}
+
+.general-answer{color:black;
+text-align:center;}
