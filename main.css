@@ -1,5 +1,9 @@
 @charset "utf-8";
-#mainContainer{
+
+
+#mainContainer:active{
+    text-decoration: underline;
+color:navy;
 	disp: flex;
 	width: 1200px;
 	margin: 0 auto;
@@ -282,7 +286,7 @@ margin:20px;
 flex-grow: 1;}
 
 .wallpaper-answer{color:black;
-text align:middle;}
+text-align:middle;}
 
 .general-question{color:#0C1AF6;}
 
