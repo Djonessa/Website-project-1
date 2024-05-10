@@ -10,16 +10,13 @@
 	
 }
 
-header{
-	display:flex;
-	text:25px;
-	margin: 0 auto;
-	width: 125%;
-	height: 100 px;
-	background-color: royalblue;
-	text-align:right;
+#Header{background-color: royalblue;
+	flex-direction: row;
+	
+	
+	
 	}
-nav {display: flex;
+.nav {display: flex;
 	width: 100%;
 	height: 100px;
 	text-align: center;
@@ -86,12 +83,12 @@ cursor: pointer;
 #Header{
     padding: 2px;
     disp: flex;
-    width: 417px;
+    width: 215px;
     max-width: 90%;
-    height: 10%;
+    height: 20px;
     position: absolute;
-    right: 90px;
-    top: 6px;
+    right: 271px;
+    top: 3px;
 	
 	
 
@@ -282,7 +279,7 @@ margin:20px;
 flex-grow: 1;}
 
 .wallpaper-answer{color:black;
-text align:middle;}
+text-align:middle;}
 
 .general-question{color:#0C1AF6;}
 
